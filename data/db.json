@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "جاوا اسکریپت",
+      "description": "خواندن 5 دقیقه ای",
+      "image": "https://pbs.twimg.com/profile_images/644140192866136065/Q5O4KoLg_400x400.png"
+    },
+    {
+      "id": 2,
+      "title": "ریاکت",
+      "description": "خواندن 7 دقیقه ای",
+      "image": "https://pbs.twimg.com/profile_images/644140192866136065/Q5O4KoLg_400x400.png"
+    },
+    {
+      "id": 3,
+      "title": "Node.js",
+      "description": "خواندن 6 دقیقه ای",
+      "image": "https://pbs.twimg.com/profile_images/644140192866136065/Q5O4KoLg_400x400.png"
+    }
+  ]
+}
