@@ -1,0 +1,14 @@
+.textAreaWrapper {
+}
+.textAreaWrapper label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: right;
+}
+
+.textAreaWrapper textarea {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

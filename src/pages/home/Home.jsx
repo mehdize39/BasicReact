@@ -5,6 +5,7 @@ import styled from "./home.module.css";
 import axios from "axios";
 import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
+import Spinner from "../../components/spinner/Spinner";
 
 function Home() {
   const [articles, setArticles] = useState([]);
@@ -29,7 +30,7 @@ function Home() {
       <div className="container">
         <h2>مقالات اخیر</h2>
         {isLoading ? (
-          <p>چند لحظه صبر کنید</p>
+          <Spinner />
         ) : (
           <div className={styled.articles}>
             {articles.map((article) => (

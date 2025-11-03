@@ -1,0 +1,27 @@
+.CreateArticlePage {
+}
+
+.CreateArticlePage h1 {
+  text-align: right;
+  margin: 40px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.buttonWrapper {
+  text-align: right;
+}
+
+.buttonWrapper button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.buttonWrapper button:active {
+  opacity: 0.8;
+}
